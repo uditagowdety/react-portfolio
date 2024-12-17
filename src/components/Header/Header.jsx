@@ -9,7 +9,7 @@ const Header = () => {
             <div className="nav-menu">
                 <ul className="nav-list grid">
                     <li className="nav-item">
-                        <a href="#home" className="nav-link">
+                        <a href="#home" className="nav-link active-link">
                             <i className="uil uil-estate nav-icon"></i> Home
                         </a>
                     </li>
@@ -38,6 +38,12 @@ const Header = () => {
                         </a>
                     </li>
                 </ul>
+
+                <i className="uil uil-times nav-close"></i>
+            </div>
+
+            <div className="nav-toggle">
+                <i class="uil uil-apps"></i>
             </div>
         </nav>
     </header>
