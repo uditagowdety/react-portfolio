@@ -2,8 +2,8 @@ import React from 'react';
 
 const Data = () => {
   return (
-    <div className="home-data">
-        <h1 className="home-title">Udita Gowdety
+    <div className="home__data">
+        <h1 className="home__title">Udita Gowdety
             <svg
                   width="36"
                   height="36"
@@ -55,8 +55,8 @@ const Data = () => {
             </svg>
         </h1>
 
-        <h3 className="home-subtitle">Creative Developer</h3>
-        <p className="home-description">⊹₊⟡⋆ CS junior and builder thriving at the intersection of art, science, tech and design. Always curious. ⊹₊⟡⋆</p>
+        <h3 className="home__subtitle">Creative Developer</h3>
+        <p className="home__description">⊹₊⟡⋆ CS junior and builder thriving at the intersection of art, science, tech and design. Always curious. ⊹₊⟡⋆</p>
         <a href="#contact" className="button button--flex">
             Say Hi!
             <svg
