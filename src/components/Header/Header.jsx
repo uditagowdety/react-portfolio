@@ -7,45 +7,45 @@ const Header = () => {
   return (
     <header className="header">
         <nav className="nav container">
-            <a href="index.html" className="nav-logo">Udita</a>
+            <a href="index.html" className="nav__logo">Udita</a>
 
-            <div className={Toggle ? "nav-menu show-menu":"nav-menu"}>
-                <ul className="nav-list grid">
-                    <li className="nav-item">
-                        <a href="#home" className="nav-link active-link">
-                            <i className="uil uil-estate nav-icon"></i> Home
+            <div className={Toggle ? "nav__menu show__menu":"nav__menu"}>
+                <ul className="nav__list grid">
+                    <li className="nav__item">
+                        <a href="#home" className="nav__link active__link">
+                            <i className="uil uil-estate nav__icon"></i> Home
                         </a>
                     </li>
 
-                    <li className="nav-item">
-                        <a href="#about" className="nav-link">
-                            <i className="uil uil-user nav-icon"></i> About
+                    <li className="nav__item">
+                        <a href="#about" className="nav__link">
+                            <i className="uil uil-user nav__icon"></i> About
                         </a>
                     </li>
 
-                    <li className="nav-item">
-                        <a href="#skills" className="nav-link">
-                            <i className="uil uil-file-alt nav-icon"></i> Skills
+                    <li className="nav__item">
+                        <a href="#skills" className="nav__link">
+                            <i className="uil uil-file-alt nav__icon"></i> Skills
                         </a>
                     </li>
 
-                    <li className="nav-item">
-                        <a href="#portfolio" className="nav-link">
-                            <i className="uil uil-scenery nav-icon"></i> Portfolio
+                    <li className="nav__item">
+                        <a href="#portfolio" className="nav__link">
+                            <i className="uil uil-scenery nav__icon"></i> Portfolio
                         </a>
                     </li>
 
-                    <li className="nav-item">
-                        <a href="#contact" className="nav-link">
-                            <i className="uil uil-message nav-icon"></i> Contact
+                    <li className="nav__item">
+                        <a href="#contact" className="nav__link">
+                            <i className="uil uil-message nav__icon"></i> Contact
                         </a>
                     </li>
                 </ul>
 
-                <i className="uil uil-times nav-close" onClick={()=>showMenu(!Toggle)}></i>
+                <i className="uil uil-times nav__close" onClick={()=>showMenu(!Toggle)}></i>
             </div>
 
-            <div className="nav-toggle" onClick={()=>showMenu(!Toggle)}>
+            <div className="nav__toggle" onClick={()=>showMenu(!Toggle)}>
                 <i class="uil uil-apps"></i>
             </div>
         </nav>
