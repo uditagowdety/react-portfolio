@@ -7,14 +7,14 @@ import Info from './Info';
 const About = () => {
   return (
     <section className="about section" id="about">
-        <h2 className="section-title">About Me</h2>
-        <span className="section-subtitle">An Introduction</span>
+        <h2 className="section__title">About Me</h2>
+        <span className="section__subtitle">An Introduction</span>
 
-        <div className="about-container container grid">
-            <img src={AboutImg} alt="" className="about-image" />
-            <div className="about-data">
+        <div className="about__container container grid">
+            <img src={AboutImg} alt="" className="about__img" />
+            <div className="about__data">
                 <Info />
-                <p className="about-description">Full-stack MERN developer and Interaction Designer. I am driven to find complex patterns through combining art, science, design and tech. I create content with an aesthetic and literary edge, and my work aims to be inclusive and open to dialogue.</p>
+                <p className="about__description">Full-stack MERN developer and Interaction Designer. I am driven to find complex patterns through combining art, science, design and tech. I create content with an aesthetic and literary edge, and my work aims to be inclusive and open to dialogue.</p>
                 <a href={CV} className="button button--flex">
                     Download CV
                     <svg
