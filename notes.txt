@@ -1,0 +1,5 @@
+shit thats not working
+- why is the nav bar so thin
+- color on hover isnt reflecting [resolved, forgot to add :hover]
+- why can't i change the font T_T
+- why is my header not perfectly centered in the screen !!!!????
