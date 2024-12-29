@@ -83,8 +83,16 @@ textarea {
 }
 
 body {
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
   background-color: var(--body-color);
   color: var(--text-color);
+}
+
+.main{
+  /* margin: 2rem; */
+  /* background-color: #a17f7f;  */
 }
 
 h1,
@@ -137,8 +145,12 @@ img {
 /*=============== LAYOUT ===============*/
 .container {
   max-width: 968px;
+
   margin-left: auto;
   margin-right: auto;
+
+  /* margin-left: var(--mb-1-5);
+  margin-right: var(--mb-1-5); */
 }
 
 .grid {

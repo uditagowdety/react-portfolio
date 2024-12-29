@@ -3,3 +3,8 @@ shit thats not working
 - color on hover isnt reflecting [resolved, forgot to add :hover]
 - why can't i change the font T_T
 - why is my header not perfectly centered in the screen !!!!????
+
+
+- it must be some selector that every single subsection in main shares. container? grid? what else? section?
+
+things that work < 992 is because some parent container's property gets overwritten by the properties in the media query (i think)
