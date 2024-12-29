@@ -90,10 +90,10 @@ body {
   color: var(--text-color);
 }
 
-.main{
+/* .main{ */
   /* margin: 2rem; */
   /* background-color: #a17f7f;  */
-}
+/* } */
 
 h1,
 h2,
@@ -144,10 +144,10 @@ img {
 
 /*=============== LAYOUT ===============*/
 .container {
-  max-width: 968px;
+  /* max-width: 968px; */
 
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: var(--mb-2);
+  margin-right: var(--mb-2);
 
   /* margin-left: var(--mb-1-5);
   margin-right: var(--mb-1-5); */
