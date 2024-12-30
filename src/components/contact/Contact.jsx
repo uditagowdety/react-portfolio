@@ -12,14 +12,7 @@ const Contact = () => {
       .sendForm('service_pwsazlj', 'template_x6ra72c', form.current, {
         publicKey: 'O6eKv2-3fawirj4jz',
       })
-      .then(
-        () => {
-          console.log('SUCCESS!');
-        },
-        (error) => {
-          console.log('FAILED...', error.text);
-        },
-      );
+      e.target.reset();
   };
   return (
     <section className="contact section" id="contact">
