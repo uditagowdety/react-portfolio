@@ -1,4 +1,6 @@
-import React from 'react'
+import React, { useRef } from 'react';
+import emailjs from '@emailjs/browser';
+import "./contact.css"
 
 const Contact = () => {
   return (
@@ -7,7 +9,7 @@ const Contact = () => {
         <span className="section__subtitle">Contact Me</span>
 
         <div className="contact__container container grid">
-            <div className="contact__content">
+            {/* <div className="contact__content">
                 <h3 className="contact__title">Talk to Me</h3>
 
                 <div className="contact__info">
@@ -29,7 +31,7 @@ const Contact = () => {
                         <a href="linkedin.com/uditagowdety" className="contact__button">Write Me! <i className="bx bx-right-arrow-alt contact__button-icon"></i></a>
                     </div>
                 </div>
-            </div>
+            </div> */}
 
             <div className="contact__content">
                 <h3 className="contact__title">Write me your ideas </h3>
@@ -42,10 +44,10 @@ const Contact = () => {
 
                     <div className="contact__form-div">
                         <label className="contact__form-tag">Mail</label>
-                        <input type="text" name='name' className='contact__form-input' placeholder='Email Address' />
+                        <input type="email" name='email' className='contact__form-input' placeholder='Email Address' />
                     </div>
 
-                    <div className="contact__form-div">
+                    <div className="contact__form-div contact__form-area">
                         <label className="contact__form-tag">Idea</label>
                         <textarea name="project" cols="30" rows="10" className='contact__form-input' placeholder='Write to Me!'></textarea>
                     </div>
