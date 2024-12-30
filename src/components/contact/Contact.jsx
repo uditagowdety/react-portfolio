@@ -3,6 +3,24 @@ import emailjs from '@emailjs/browser';
 import "./contact.css"
 
 const Contact = () => {
+    const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm('service_pwsazlj', 'template_x6ra72c', form.current, {
+        publicKey: 'O6eKv2-3fawirj4jz',
+      })
+      .then(
+        () => {
+          console.log('SUCCESS!');
+        },
+        (error) => {
+          console.log('FAILED...', error.text);
+        },
+      );
+  };
   return (
     <section className="contact section" id="contact">
         <h2 className="section__title">Get in Touch</h2>
@@ -36,7 +54,7 @@ const Contact = () => {
             <div className="contact__content">
                 <h3 className="contact__title">Write me your ideas </h3>
 
-                <form className="contact__form">
+                <form ref={form} onSubmit={sendEmail} className="contact__form">
                     <div className="contact__form-div">
                         <label className="contact__form-tag">Name</label>
                         <input type="text" name='name' className='contact__form-input' placeholder='Full Name' />
