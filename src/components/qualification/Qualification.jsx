@@ -99,10 +99,10 @@ const Qualification = () => {
 
                 <div className="qualification__data">
                     <div>
-                        <h3 className="qualification__title">More Stuff</h3>
-                        <span className="qualification__subtitle">Coming Soon</span>
+                        <h3 className="qualification__title">HCI Research Intern</h3>
+                        <span className="qualification__subtitle">EPFL, Lausanne</span>
                         <div className="qualification__calendar">
-                            <i className="uil uil-calendar-alt"></i> 2024 - Present
+                            <i className="uil uil-calendar-alt"></i> Summer 2025 :)
                         </div>
                     </div>
 

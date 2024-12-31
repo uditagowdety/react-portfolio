@@ -14,7 +14,7 @@ const About = () => {
             <img src={AboutImg} alt="" className="about__img" />
             <div className="about__data">
                 <Info />
-                <p className="about__description">Full-stack MERN developer and Interaction Designer. I am driven to find complex patterns through combining art, science, design and tech. I create content with an aesthetic and literary edge, and my work aims to be inclusive and open to dialogue.</p>
+                <p className="about__description">Full-stack MERN developer and UX/UI Designer. I am driven to find complex patterns through combining art, science, design and tech. I create content with an aesthetic and literary edge, and my work aims to be inclusive and open to dialogue.</p>
                 <a href={CV} className="button button--flex">
                     Download CV
                     <svg
