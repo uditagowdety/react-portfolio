@@ -1,7 +1,7 @@
-.qualification__container{
+/* .qualification__container{
     /* max-width: 768px; */
     /* background-color: blueviolet; */
-}
+/* }  */
 
 .qualification__tabs{
     display: flex;
@@ -109,9 +109,9 @@
         margin: 0 var(--mb-0-25);
     }
 
-    .qualification__data{
+    /* .qualification__data{
         
-    }
+    } */
 }
 
 /* For small devices */
